@@ -1,0 +1,6 @@
+path: /home/sheded/yolov8/project/data
+train: images/train
+val: images/train
+
+names:
+  0: Ball
