@@ -1,8 +1,8 @@
 task: detect
 mode: train
 model: yolov8n.yaml
-data: config.yaml
-epochs: 1
+data: /content/gdrive/MyDrive/yolov8/ball_detector/colab_config.yaml
+epochs: 100
 patience: 50
 batch: 16
 imgsz: 640

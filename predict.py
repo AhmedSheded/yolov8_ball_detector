@@ -15,7 +15,7 @@ ret, frame = cap.read()
 h, w, _ = frame.shape
 writer = cv2.VideoWriter(output_path, cv2.VideoWriter_fourcc(*'MP4V'), int(cap.get(cv2.CAP_PROP_FPS)), (w, h))
 
-model_path = '/home/sheded/yolov8/project/runs/detect/train2/weights/best.pt'
+model_path = '/home/sheded/yolov8/project/runs/detect/train/weights/best.pt'
 model= YOLO(model_path)
 
 conf = 0.4
